@@ -133,12 +133,12 @@ const Nav: React.FC = () => {
             </div>
           </nav>
 
-          <nav className="navbar-end lg:flex hidden">
+          <nav className="navbar-end lg:flex hidden ">
             {navItems.slice(4).map((item, index) => (
               <Link
                 key={index}
                 href={item.link}
-                className="btn btn-sm glass mx-2 text-base font-normal"
+                className="btn btn-sm glass mx-2 text-base font-normal bg-gray-200 hover:bg-gray-300 text-black"
               >
                 {item.name}
               </Link>
